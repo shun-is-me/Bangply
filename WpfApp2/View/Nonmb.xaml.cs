@@ -16,22 +16,13 @@ using System.Windows.Shapes;
 namespace WpfApp2.View
 {
     /// <summary>
-    /// Main.xaml에 대한 상호 작용 논리
+    /// Nonmb.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class Main : Page
+    public partial class Nonmb : Page
     {
-        public Main()
+        public Nonmb()
         {
             InitializeComponent();
-        }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Uri("/view/Home.xaml", UriKind.Relative));
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
