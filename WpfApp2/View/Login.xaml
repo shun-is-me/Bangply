@@ -1,0 +1,27 @@
+﻿<Page x:Class="WpfApp2.View.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp2.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="490" d:DesignWidth="830"
+      Title="Login">
+
+    <Grid>
+        <Button Content="" HorizontalAlignment="Left" Height="80" Margin="680,-5,0,0" VerticalAlignment="Top" Width="150" BorderBrush="Transparent" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/이미지/Logo.png"/>
+            </Button.Background>
+        </Button>
+
+        <TextBlock  HorizontalAlignment="Left" Height="65" Margin="332,75,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Width="172" FontSize="40" TextAlignment="Center" RenderTransformOrigin="0.752,0.479" Foreground="#CC99FF" FontWeight="Bold"/>
+        <Label Content="ID를 입력하세요." HorizontalAlignment="Left" Height="39" Margin="83,161,0,0" VerticalAlignment="Top" Width="196" FontSize="18" Foreground="#FF060606"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="33" Margin="298,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278" FontSize="18" BorderBrush="#CC99FF" />
+        <Label Content="PassWord를 입력하세요." HorizontalAlignment="Left" Height="41" Margin="83,227,0,0" VerticalAlignment="Top" Width="278" IsEnabled="False" FontSize="18" Foreground="Black"/>
+        <Button Content="로그인" HorizontalAlignment="Left" Height="103" Margin="620,157,0,0" VerticalAlignment="Top" Width="115" Foreground="White" Background="#CC99FF" FontSize="20" BorderBrush="#CC99FF" FontWeight="Bold" Click="Button_Click_1"/>
+        <PasswordBox x:Name="passwordbox" HorizontalAlignment="Left" Margin="300,227,0,0" VerticalAlignment="Top" Width="277" Height="33" FontSize="18" RenderTransformOrigin="0.5,0.5" BorderBrush="#CC99FF"/>
+        <Label Content="회원이 아니신가요? " HorizontalAlignment="Left" Margin="380,296,0,0" VerticalAlignment="Top" Width="196" FontSize="16" Foreground="Black"/>
+        <Button Content="회원가입" HorizontalAlignment="Left" Height="31" Margin="591,297,0,0" VerticalAlignment="Top" Width="144" Background="#CC99FF" FontSize="16" BorderBrush="#CC99FF" RenderTransformOrigin="0.49,-0.468" Foreground="#FFFFFEFE" Click="Button_Click_2"/>
+    </Grid>
+</Page>
