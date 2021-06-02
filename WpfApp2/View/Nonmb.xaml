@@ -5,10 +5,51 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WpfApp2.View"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="490" d:DesignWidth="830"
       Title="Nonmb">
 
     <Grid>
-        
+        <Button Content="" HorizontalAlignment="Left" Height="80" Margin="-18,-5,0,0" VerticalAlignment="Top" Width="150" BorderBrush="Transparent" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/이미지/Logo.png"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="201" Margin="10,57,0,0" VerticalAlignment="Top" Width="242" Source="C:\Users\82107\Desktop\WpfApp1\WpfApp1\이미지\Mainlogo.png"/>
+
+        <Label Content="상황별" HorizontalAlignment="Left" Margin="42,263,0,0" VerticalAlignment="Top" Height="50" Width="90" FontSize="22" Foreground="#CC99FF" FontWeight="Bold"/>
+        <ComboBox HorizontalAlignment="Left" Margin="137,263,0,0" VerticalAlignment="Top" Width="179" Height="50" BorderBrush="#FFC7A1F0" FontSize="22">
+            <ComboBoxItem Content="여름노래"/>
+            <ComboBoxItem Content="공부하며"/>
+            <ComboBoxItem Content="새벽 감성의"/>
+            <ComboBoxItem Content="비 올때"/>
+            <ComboBoxItem Content="드라이브 송"/>
+        </ComboBox>
+
+        <Label Content="기분별" HorizontalAlignment="Left" Margin="42,351,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#CC99FF" FontWeight="Bold"/>
+        <ComboBox HorizontalAlignment="Left" Margin="137,351,0,0" VerticalAlignment="Top" Width="179" Height="50" BorderBrush="#FFC7A1F0" FontSize="24">
+            <ComboBoxItem Content="기분 전환하고 싶을 때"/>
+            <ComboBoxItem Content="자존감 상승시켜주는"/>
+            <ComboBoxItem Content="하루를 되돌아보며"/>
+            <ComboBoxItem Content="전투력이 불타오를 때"/>
+            <ComboBoxItem Content="혼자 있고 싶을 때"/>
+        </ComboBox>
+
+        <Button HorizontalAlignment="Left" Height="112" Margin="371,276,0,0" VerticalAlignment="Top" Width="101" BorderBrush="White" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="/WpfApp2;component/이미지/Mainbut.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Border BorderBrush="#FFC997FC" BorderThickness="5" HorizontalAlignment="Left" Height="409" Margin="531,16,0,0" VerticalAlignment="Top" Width="281"/>
+        <TextBlock HorizontalAlignment="Left" Height="53" Margin="549,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="263" FontSize="36" Foreground="#FF9541C5" FontWeight="Bold"><Run Text="팬님"/><Run Text="의 현재"/></TextBlock>
+        <Label Content="상황은?" HorizontalAlignment="Left" Height="40" Margin="544,107,0,0" VerticalAlignment="Top" Width="99" FontSize="20" FontWeight="Bold" Foreground="#FFC06CF1"/>
+        <TextBox x:Name="serialtxt" HorizontalAlignment="Left" Height="37" Margin="591,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" FontSize="18" RenderTransformOrigin="0.148,0.615"/>
+        <Label Content="기분은?" HorizontalAlignment="Left" Height="40" Margin="544,218,0,0" VerticalAlignment="Top" Width="99" FontSize="20" FontWeight="Bold" Foreground="#FFC06CF1"/>
+        <TextBox x:Name="serialtxt1" HorizontalAlignment="Left" Height="37" Margin="591,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" FontSize="18" RenderTransformOrigin="0.148,0.615"/>
+        <Button HorizontalAlignment="Left" Height="114" Margin="549,329,0,0" VerticalAlignment="Top" Width="249" BorderBrush="White" RenderTransformOrigin="0.255,0.536" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush ImageSource="/이미지/Mainbut2.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Page>

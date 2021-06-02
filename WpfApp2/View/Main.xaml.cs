@@ -33,5 +33,10 @@ namespace WpfApp2.View
         {
 
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/view/Main_rcd.xaml", UriKind.Relative));
+        }
     }
 }

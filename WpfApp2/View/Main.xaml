@@ -39,14 +39,18 @@
                 <ImageBrush ImageSource="/WpfApp2;component/이미지/Mainbut.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        
+
         <Border BorderBrush="#FFC997FC" BorderThickness="5" HorizontalAlignment="Left" Height="409" Margin="531,16,0,0" VerticalAlignment="Top" Width="281"/>
         <TextBox x:Name="idsession" HorizontalAlignment="Left" Margin="558,35,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.383,-0.033" FontSize="36" FontWeight="Bold" Height="53" Width="76" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FF9541C5" />
         <TextBlock HorizontalAlignment="Left" Height="53" Margin="639,35,0,0" TextWrapping="Wrap" Text="님의 현재" VerticalAlignment="Top" Width="173" FontSize="36" Foreground="#FF9541C5" FontWeight="Bold"/>
         <Label Content="상황은?" HorizontalAlignment="Left" Height="40" Margin="544,107,0,0" VerticalAlignment="Top" Width="99" FontSize="20" FontWeight="Bold" Foreground="#FFC06CF1"/>
         <TextBox x:Name="serialtxt" HorizontalAlignment="Left" Height="37" Margin="591,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" FontSize="18" RenderTransformOrigin="0.148,0.615"/>
         <Label Content="기분은?" HorizontalAlignment="Left" Height="40" Margin="544,218,0,0" VerticalAlignment="Top" Width="99" FontSize="20" FontWeight="Bold" Foreground="#FFC06CF1"/>
-        <TextBox x:Name="serialtxt" HorizontalAlignment="Left" Height="37" Margin="591,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" FontSize="18" RenderTransformOrigin="0.148,0.615"/>
-        
+        <TextBox x:Name="serialtxt1" HorizontalAlignment="Left" Height="37" Margin="591,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" FontSize="18" RenderTransformOrigin="0.148,0.615"/>
+        <Button HorizontalAlignment="Left" Height="114" Margin="549,329,0,0" VerticalAlignment="Top" Width="249" BorderBrush="White" RenderTransformOrigin="0.255,0.536" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush ImageSource="/이미지/Mainbut2.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Page>

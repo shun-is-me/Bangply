@@ -16,27 +16,28 @@ using System.Windows.Shapes;
 namespace WpfApp2.View
 {
     /// <summary>
-    /// Login.xaml에 대한 상호 작용 논리
+    /// Album_rcd.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class Login : Page
+    public partial class Album_rcd : Page
     {
-        public Login()
+        public Album_rcd()
         {
             InitializeComponent();
         }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/view/Home.xaml", UriKind.Relative));
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/view/Choice.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/view/Main.xaml", UriKind.Relative));
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/view/Join.xaml", UriKind.Relative));
+
         }
     }
 }
