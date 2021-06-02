@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\album.cs" />
+    <Compile Include="Model\music.cs" />
+    <Compile Include="Model\playlist.cs" />
+    <Compile Include="Model\user.cs" />
     <Compile Include="View\Album_rcd.xaml.cs">
       <DependentUpon>Album_rcd.xaml</DependentUpon>
     </Compile>
