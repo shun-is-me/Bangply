@@ -20,10 +20,6 @@
                 <ImageBrush ImageSource="/이미지/Homebut2.png"/>
             </Button.Background>
         </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="63" Margin="322,350,0,0" VerticalAlignment="Top" Width="159" BorderBrush="White" RenderTransformOrigin="1.246,0.522" Click="Button_Click_2">
-            <Button.Background>
-                <ImageBrush ImageSource="/이미지/Homebut3.png"/>
-            </Button.Background>
-        </Button>
+     
     </Grid>
 </Page>

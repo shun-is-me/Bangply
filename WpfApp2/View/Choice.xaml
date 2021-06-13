@@ -9,8 +9,21 @@
       Title="Choice">
 
     <Grid>
-        <Button Content="앨범추천받기" HorizontalAlignment="Left" Height="355" Margin="10,67,0,0" VerticalAlignment="Top" Width="380" Click="Button_Click"/>
-        <Button Content="노래추천받기" HorizontalAlignment="Left" Height="355" Margin="422,67,0,0" VerticalAlignment="Top" Width="372" Click="Button_Click_1"/>
+        <Button Content="" HorizontalAlignment="Left" Height="80" Margin="670,0,0,0" VerticalAlignment="Top" Width="150" BorderBrush="Transparent" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush ImageSource="/이미지/Logo.png"/>
+            </Button.Background>
+        </Button>
+        <Button HorizontalAlignment="Left" Height="355" Margin="10,67,0,0" VerticalAlignment="Top" Width="380" Click="Button_Click" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/이미지/c_btn1.png"/>
+            </Button.Background>
+        </Button>
+        <Button HorizontalAlignment="Left" Height="355" Margin="422,67,0,0" VerticalAlignment="Top" Width="372" Click="Button_Click_1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/이미지/c_btn2.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>

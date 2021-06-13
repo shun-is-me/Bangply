@@ -82,12 +82,6 @@
     <Compile Include="View\Main_rcd.xaml.cs">
       <DependentUpon>Main_rcd.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\Nonmb.xaml.cs">
-      <DependentUpon>Nonmb.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Nonmb_rcd.xaml.cs">
-      <DependentUpon>Nonmb_rcd.xaml</DependentUpon>
-    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -125,14 +119,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Main_rcd.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\Nonmb.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\Nonmb_rcd.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -177,6 +163,20 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="이미지\Mainbut2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="이미지\c_btn1.png" />
+    <Resource Include="이미지\c_btn2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="이미지\a_rcd_btn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="이미지\a_rcd_btn2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="이미지\m_rcd_btn1.png" />
+    <Resource Include="이미지\m_rcd_btn2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -27,7 +27,7 @@ namespace WpfApp2.View
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new Uri("/view/Home.xaml", UriKind.Relative));
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

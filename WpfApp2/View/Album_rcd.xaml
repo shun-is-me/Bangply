@@ -9,11 +9,25 @@
       Title="Album_rcd">
 
     <Grid>
-        <DataGrid HorizontalAlignment="Left" Height="350" Margin="389,28,0,0" VerticalAlignment="Top" Width="357"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="93,42,0,0"/>
-        <Button Content="앨범추천" HorizontalAlignment="Left" Height="61" Margin="93,147,0,0" VerticalAlignment="Top" Width="158" Click="Button_Click"/>
-        <Button Content="노래추천받기" HorizontalAlignment="Left" Height="61" Margin="93,245,0,0" VerticalAlignment="Top" Width="158" Click="Button_Click_1"/>
-        <Button Content="로그아웃" HorizontalAlignment="Left" Height="61" Margin="93,331,0,0" VerticalAlignment="Top" Width="158" Click="Button_Click_2"/>
+        <Button Content="" HorizontalAlignment="Left" Height="80" Margin="-18,-5,0,0" VerticalAlignment="Top" Width="150" BorderBrush="Transparent" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/이미지/Logo.png"/>
+            </Button.Background>
+        </Button>
+        <DataGrid HorizontalAlignment="Left" Height="350" Margin="417,65,0,0" VerticalAlignment="Top" Width="357" BorderBrush="#FF9A74D7"/>
+        <TextBox HorizontalAlignment="Left" Height="42" TextWrapping="Wrap" Text="EX)2013" VerticalAlignment="Top" Width="136" Margin="69,190,0,0" Foreground="#FF8B8787" FontSize="22" BorderBrush="#FFE2D0FF"/>
+        <Button HorizontalAlignment="Left" Height="91" Margin="272,172,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click" BorderBrush="{x:Null}" RenderTransformOrigin="1.378,0.456">
+            <Button.Background>
+                <ImageBrush ImageSource="/이미지/a_rcd_btn1.png"/>
+            </Button.Background>
+        </Button>
+        <Button HorizontalAlignment="Left" Height="54" Margin="54,361,0,0" VerticalAlignment="Top" Width="321" Click="Button_Click_1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/이미지/a_rcd_btn2.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="추천 받고 싶은 앨범의 연도를 입력하세요." HorizontalAlignment="Left" Margin="20,106,0,0" VerticalAlignment="Top" Foreground="#FFBD85FF" FontSize="20" FontWeight="Bold" Width="428"/>
+
 
     </Grid>
 </Page>
